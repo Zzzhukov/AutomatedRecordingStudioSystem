@@ -349,7 +349,7 @@ public class MainController implements Initializable {
             phoneTextField.setVisible(false);
             requestTimeLabel.setVisible(false);
 
-            //Дима, сделай здесь обновление занятых дней
+            //Сделать здесь обновление занятых дней
 
             showCustomAlert(response + "\n\nДанный номер нужно сохранить для того, чтобы вы смогли доказать, что данную заявку сделали вы");
         });
