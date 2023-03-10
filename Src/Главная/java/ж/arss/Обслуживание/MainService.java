@@ -112,7 +112,7 @@ public class MainService {
                     .replace(",", "_").replace("\"", "_")
                     .replace("?", "_").replace("|", "_");
             PrintWriter writer = new PrintWriter(fileName, StandardCharsets.UTF_8);
-            writer.println("Файл лицензии, который Валентин так и не отправил\n\n\n\n");
+            writer.println("Файл лицензии\n\n\n\n");
             writer.println("Покупка аранжировки " + arrangement.getName());
             writer.println("по лицензии " + license.substring(0, license.indexOf('-')) + "\n\n");
             writer.println("Покупатель " + user.getLogin() + "\n\n");
